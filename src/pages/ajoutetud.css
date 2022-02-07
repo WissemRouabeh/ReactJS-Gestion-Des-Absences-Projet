@@ -1,0 +1,45 @@
+.formetud input,
+#classe {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* .formetud .ajouterbtn:hover,
+.formetud .ajouterbtn:active,
+.formetud .ajouterbtn:focus {
+  background: #5c0707;
+}
+.formetud .retourbtn:hover,
+.formetud .retourbtn:active,
+.formetud .retourbtn:focus {
+  color: rgb(170, 18, 18);
+} */
+.formetud .ajouterbtn,
+.retourbtn {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #af4c4c;
+  width: 20%;
+  float: right;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.retourbtn {
+  background-color: white;
+  color: #af4c4c;
+  border: 1px solid #af4c4c;
+  margin: 0 1px;
+}

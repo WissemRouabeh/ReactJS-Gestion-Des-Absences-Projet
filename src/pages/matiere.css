@@ -1,0 +1,49 @@
+.matiere-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.matiere-table td,
+.matiere-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.matiere-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.matiere-table tr:hover {
+  background-color: #ddd;
+}
+
+.matiere-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(59, 58, 58);
+  color: white;
+}
+.table-section {
+  height: 60vh;
+  overflow-y: auto;
+}
+.matiere-container button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #af4c4c;
+  width: 20vw;
+  float: right;
+  border: 0;
+  margin: 10px 10px;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.matiere-container h1 {
+  color: #af4c4c;
+}

@@ -1,0 +1,66 @@
+.formclasse input,
+#specialite {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+/* 
+.formclasse .ajouterbtn:hover,
+.formclasse .ajouterbtn:active,
+.formclasse .ajouterbtn:focus {
+  background: #5c0707;
+}
+.formclasse .retourbtn:hover,
+.formclasse .retourbtn:active,
+.formclasse .retourbtn:focus {
+  color: rgb(170, 18, 18);
+} */
+.formclasse .ajouterbtn,
+.retourbtn {
+  text-transform: uppercase;
+  outline: 0;
+  background: #af4c4c;
+  width: 20%;
+  float: right;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+.retourbtn {
+  background-color: white;
+  color: #af4c4c;
+  border: 1px solid #af4c4c;
+}
+
+@media (max-width: 599px) {
+  .formclasse h1 {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .formclasse .ajouterbtn {
+    width: 40vw;
+    float: right;
+    border: 0;
+    color: #ffffff;
+    font-size: 12px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  .formclasse .retourbtn {
+    width: 40vw;
+    border: 0;
+    font-size: 12px;
+    background-color: white;
+    color: #af4c4c;
+    border: 1px solid #af4c4c;
+    margin: 0 1px;
+  }
+}

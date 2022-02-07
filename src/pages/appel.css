@@ -1,0 +1,85 @@
+#classe,
+#date-picker {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.appel-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.appel-table td,
+.appel-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.appel-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.appel-table tr:hover {
+  background-color: #ddd;
+}
+
+.appel-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(59, 58, 58);
+  color: white;
+}
+.table-section {
+  height: 55vh;
+  overflow-y: auto;
+}
+#date-picker {
+  cursor: pointer;
+  color: rgba(20, 20, 238, 0.726);
+  font-weight: 600;
+}
+.appel-container .btnAjout {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #af4c4c;
+  width: 20vw;
+  float: right;
+  border: 0;
+  margin: 10px 10px;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+h1 {
+  color: #af4c4c;
+}
+
+@media (max-width: 599px) {
+  .appel-container h1 {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+
+  .appel-container .btnAjout {
+    width: 40vw;
+    float: right;
+    border: 0;
+    margin: 10px 10px;
+    padding: 8px 5px;
+    color: #ffffff;
+    font-size: 12px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,87 @@
+td {
+  width: 150px;
+  height: 50px;
+  border: 1px solid #af4c4c;
+  padding: 5px;
+  cursor: pointer;
+}
+th {
+  font-size: 12px;
+}
+.emploi-jour {
+  font-size: 12px;
+  color: gray;
+  font-weight: 300;
+}
+#classe {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.ajouterbtn,
+.retourbtn {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #af4c4c;
+  width: 20%;
+  float: right;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.emploi-container h1 {
+  color: #af4c4c;
+}
+.table-case {
+  /* background-color: rgba(243, 196, 196, 0.527); */
+}
+td {
+  position: relative;
+}
+/* .emploi-salle {
+  position: absolute;
+  bottom: 0;
+  left: 2px;
+  font-size: 0.8rem;
+}
+.emploi-prof {
+  position: absolute;
+  bottom: 0;
+  right: 2px;
+  font-size: 0.8rem;
+}
+.emploi-mat {
+  font-weight: 600;
+} */
+
+@media (max-width: 599px) {
+  .emploi-table {
+    transform: rotate(90deg);
+    margin: 10px;
+  }
+  .divi {
+    width: 10px;
+  }
+  .emploi-container > h1 {
+    padding-top: 10px;
+    font-size: 14px;
+  }
+  th {
+    font-size: 19px;
+    margin-right: -10vw;
+  }
+  .emploi-jour {
+    display: none;
+  }
+}
